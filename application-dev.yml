@@ -1,0 +1,15 @@
+owner:
+  name: James Kanyi Maina Dev
+spring:
+ cloud:
+  config:
+    uri: http://localhost:8888
+    enabled:
+management:
+  endpoints:
+   web:
+    exposure:
+     include: '*'
+
+server:
+  port: 8086

@@ -1,0 +1,12 @@
+owner:
+  name: James Kanyi Maina test
+spring:
+    cloud:
+      config:
+        uri: http://localhost:8888
+        enabled:
+management:
+    endpoints:
+      web:
+        exposure:
+          include: '*'
